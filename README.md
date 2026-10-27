@@ -1,0 +1,8 @@
+# Give Me the Bible Sudoku 1.0: iPhone/iPad build
+
+Upload everything in this folder (including the `.github` folder) to a new GitHub repository.
+GitHub then builds an unsigned `GiveMeTheBibleSudoku-unsigned.ipa` automatically (Actions tab → latest run → Artifacts).
+Install it on your iPhone or iPad with Sideloadly (Windows or Mac) or AltStore, signing with your free Apple ID.
+Free Apple ID installs must be refreshed every 7 days.
+
+Build method adapted from github.com/adro0303/ipa-builder (MIT).
