@@ -13,7 +13,8 @@ permissions:
 
 jobs:
   build:
-    runs-on: macos-latest
+    # Intel Mac runner: Apple-silicon runners (macos-latest) were overloaded on Oct 28, 2026. Either builds the same iPhone app.
+    runs-on: macos-15-intel
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
